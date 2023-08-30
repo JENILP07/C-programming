@@ -1,32 +1,32 @@
 #include<stdio.h>
 void main(){
-    int a,b;
+    float a,b;
     char n;
      printf("Enter the operation:");
     scanf("%c",&n);
     printf("Enter Val of a:");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Enter Val of b:");
-    scanf("%d",&b);
+    scanf("%f",&b);
     if(n=='-'||n=='+'||n=='/'||n=='*')
     {
         if(n=='+')
         {
-        printf("Add=%d",a+b);
+        printf("Add=%f",a+b);
         }
     else if(n=='-')
     {
-        printf("Sub=%d",a-b);
+        printf("Sub=%f",a-b);
     }
     else if(n=='/'){
-    if(b==0){
-        printf("not defined");
-        else{
-        printf("Divide=%d",a/b);}
-    }}
+		if(b==0){
+			printf("not defined");
+		}
+		else{
+        printf("Divide=%f",a/b);}}
     else if(n=='*') 
     {
-           printf("Multiply=%d",a*b);
+           printf("Multiply=%f",a*b);
         }
     else
     {
