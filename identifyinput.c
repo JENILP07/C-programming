@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
     char a;
-    printf("Input:",&a);
+    printf("Input:");
     scanf("%c",&a);
      if(a>='A' && a<='Z'){
         printf("Input is Uppercase");
